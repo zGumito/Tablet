@@ -1,0 +1,8 @@
+[
+  {"module": "client.dll", "name": "dwEntityList",
+   "pattern": "48 8B 0D ? ? ? ? 48 89 7C 24 ? 8B FA C1 EB", "rip_offset": 3, "rip_length": 7},
+  {"module": "client.dll", "name": "dwViewMatrix",
+   "pattern": "48 8D 0D ? ? ? ? 48 C1 E0 06", "rip_offset": 3, "rip_length": 7},
+  {"module": "client.dll", "name": "dwGlobalVars",
+   "pattern": "48 89 15 ? ? ? ? 48 89 42", "rip_offset": 3, "rip_length": 7}
+]
